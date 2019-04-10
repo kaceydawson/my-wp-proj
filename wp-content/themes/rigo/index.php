@@ -5,7 +5,7 @@ $args = wpas_get_view_data();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello from Rigo!</title>
+        <title>Welcome to Pasco Parts Wordpress Database and Token Validator</title>
         <?php wp_head() ?>
     </head>
     <body>
@@ -15,7 +15,9 @@ $args = wpas_get_view_data();
         <p>Here are some useful links:</p>
         <ul>
             <li><a href="<?php echo get_site_url(); ?>/wp-admin">Login into the WordPress admin dashboard.</a></li>
-            <li>This is a endpoint: GET: <a href="<?php echo get_site_url(); ?>/wp-json/sample_api/v1/courses">/courses</a></li>
+            <li>This is a endpoint: GET: <a href="<?php echo get_site_url(); ?>/wp-json/sample_api/v1/products">/products</a></li>
+            <li>This is a endpoint: POST: <a href="<?php echo get_site_url(); ?>/wp-json/jwt-auth/v1/token">/token</a></li>
+            <li>This is a endpoint: POST: <a href="<?php echo get_site_url(); ?>/wp-json/jwt-auth/v1/validate">/token/validate</a></li>
             <li>You can download the <a href="https://www.getpostman.com/apps">postman client here.</a></li>
         </ul>
     <?php wp_footer() ?>

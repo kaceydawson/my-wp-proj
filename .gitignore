@@ -28,6 +28,9 @@
 # ignore all files starting with .
 .*
 
+# ignore all files starting with .
+acf-query
+
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 
